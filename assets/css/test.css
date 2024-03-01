@@ -1,0 +1,181 @@
+/*
+.top-div {
+	background-image: linear-gradient(
+		to right,
+		#da4453,
+		#ca355c,
+		#b72a63,
+		#a12468,
+		#89216b
+	) !important;
+	color: white !important;
+}
+*/
+
+/* Bootstrap error fix #eeffba, #d6fa8c, #beed53, #a5d721, #82b300 #5d8700*/
+html,
+body {
+	overflow-x: hidden;
+}
+.news{
+	padding-left: 100px;
+}
+.top-div {
+	background-image: linear-gradient(
+		to right,
+		#beed53,
+		#a5d721,
+		#82b300,
+		#5d8700
+	) !important;
+	color: white !important;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+.springer-logo {
+	background-color: white;
+	padding: 1%;
+	margin: 10%;
+	margin-left: 0%;
+	text-align: center;
+	justify-content: center;
+}
+
+.rmkec_logo {
+	background-color: white;
+	padding: 0%;
+	margin: 1%;
+}
+
+.icisc_logo {
+	width: 70px;
+	background-color: #fffa;
+	border-radius: 5px;
+}
+
+.home-title {
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 170%;
+}
+
+.my-light-background {
+	background-color: #fffc;
+	color: black;
+	font-size: large;
+}
+
+.head {
+	color: #353eb1;
+	font-weight: bold;
+}
+
+.my-color {
+	color: #82b300;
+}
+
+.my-border-radius {
+	border-radius: 5px;
+}
+
+.my-heading {
+	text-transform: uppercase;
+}
+.pad{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.active{
+	color: rgb(39, 39, 39) !important;
+}
+
+
+.carousel-control-next-icon {
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	width: 25px;
+    border-radius: 10px;
+}
+.carousel-control-prev-icon {
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+	width: 25px;
+    border-radius: 10px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+  }
+  
+  .container{
+	width: 100%;
+	
+  }
+  
+  .slider{
+	margin: 0 40px;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .slider .image-items{
+	height: 100%;
+  }
+  
+  .slider .image-items .image{
+	height: 100%;
+  }
+  
+  .slider .image-items .image img{
+	height: 100%;
+	display: block;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+  }
+  
+  .arrowButton{
+	position: absolute !important;
+	top: 50% !important;
+	color: black !important;
+	width: 50px !important;
+	height: 50px !important;
+	border-radius: 50% !important;
+	background-color: white !important;
+	padding: 10px !important;
+  }
+  
+  .arrowButton.left{
+	left: 0 !important;
+  }
+  
+  .arrowButton.right{
+	right: 0 !important;
+  }
+  
+  .arrowButton::after{
+	font-size: 20px !important;
+  }
+  
+  @media only screen and (max-width:868px){
+	.slider{
+		margin: 0 20px;
+	}
+  }
+  .card{
+		height: 20rem;
+  }
