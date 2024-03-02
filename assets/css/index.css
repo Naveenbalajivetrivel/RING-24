@@ -15,6 +15,7 @@
 /* Bootstrap error fix #eeffba, #d6fa8c, #beed53, #a5d721, #82b300 #5d8700*/
 html,
 body {
+	font-family:sans-serif;
 	overflow-x: hidden;
 }
 .news{
@@ -34,7 +35,7 @@ body {
 
 .nav-link {
 	color: rgb(0, 0, 0) !important;
-	font-size: x-large;
+	font-size: large;
 }
 
 .springer-logo {
@@ -78,6 +79,7 @@ body {
 
 .font{
 font-size: large;
+font-family: sans-serif;
 }
 
 .my-color {
@@ -114,8 +116,7 @@ font-size: large;
     border-radius: 10px;
 }
 *{
-    font-family: 'Times New Roman', Times, serif;
-}
+    font-family: sans-serif;}
 .blink {
 	color: #ffffff;
   }
