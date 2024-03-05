@@ -9,6 +9,31 @@ body {
             overflow: hidden !important;
 }
 
+.custom-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* White background for the container */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+
+  .custom-div .navbar-brand,
+  .custom-div .company-name {
+    color: #333; /* Text color for product name and company name */
+    text-decoration: none; /* Remove underline */
+  }
+
+  .custom-div .navbar-nav .nav-link {
+    transition: color 0.3s;
+  }
+
+  .custom-div .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #888;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+
 #loading-container {
     position: fixed;
     width: 100%;
